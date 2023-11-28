@@ -69,7 +69,10 @@ function Catalog() {
   }, [searchTerm, items]);
 
   // Clear search term
-  const clearSearch = () => setSearchTerm("");
+  const clearSearch = () => {
+    setSearchTerm("");
+    setCountryFilter("");
+  };
 
   if (isLoading)
     return (

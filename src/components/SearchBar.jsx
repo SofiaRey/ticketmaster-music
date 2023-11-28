@@ -39,7 +39,7 @@ function SearchBar({
           className="ml-4 text-stone-400 hover:text-tmBlue"
           onClick={clearSearch}
         >
-          Clear
+          Clear Filters
         </button>
       </div>
       {/* Country filter */}

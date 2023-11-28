@@ -49,7 +49,7 @@ function Footer() {
           ))}
         </div>
       </div>
-      <p className="text-gray-400 text-xs">
+      <p className="text-stone-400 text-xs">
         © 1999-2023 Ticketmaster. All rights reserved.
       </p>
     </footer>
